@@ -20,11 +20,11 @@ app.get('/', function (req, res) {
  
     const items = [
         {
-            title: "ice-cream shop", 
-            description: "best ice-cream shop. best ice-cream shop. best ice-cream shop. best ice-cream shop.",
+            title: "Геоинформационные системы", 
+            description: "Мы реализовали ряд проектов разной направленности - порталы для граждан, ведомственные информационные системы для различных отраслей.",
             button: "open project",
             url: "https://bk.asia-city.com/restaurants/news/ice-cream-shops-bangkok",
-            img: "/img/ice-cream.jpg"
+            img: "/"
         },
         {
             title: "game app shop", 
