@@ -1443,7 +1443,7 @@ body {
 }
 
 .maycontainer {
-  background: url(../img/fon6.jpg);
+  background: url(../img/fon.jpg);
   background-repeat: no-repeat;
   height: 630px;
   width: 100%;
@@ -1468,7 +1468,7 @@ body {
 @media screen and (max-width: 480px) {
   .maycontainer {
     height: 390px;
-    background: url(../img/fon7.jpg);
+    background: url(../img/fon.jpg);
     background-size: 225%;
   }
 }
@@ -1493,7 +1493,7 @@ body {
   font-family: 'Rubik One', sans-serif;
   font-size: 72px;
   /* text-transform: uppercase; */
-  background: linear-gradient(45deg, #eef0f3 33%, #546165 66%, #4bbcdc);
+  background: linear-gradient(45deg, #adb5bd 33%, #dee2e6 56%, #007bff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: #0B2349;
@@ -4399,11 +4399,11 @@ h2 {
 }
 
 .button:hover:before {
-  background-color: #ccc370;
+  background-color: #f2f3eb;
 }
 
 button:hover {
-  background-color: #ccc370;
+  background-color: #f2f3eb;
 }
 
 .subscribe-form {
@@ -4945,7 +4945,7 @@ h3 {
   transition: background 200ms ease;
 }
 
-.view-gallerys button:hover {
+.view-gallerys  {
   cursor: pointer;
   background: #4394ab;
 }

@@ -27,7 +27,7 @@
 }
 
 .maycontainer {
-  background: url(../img/fon6.jpg);
+  background: url(../img/fon.jpg);
   background-repeat: no-repeat;
   height: 630px;
   width: 100%;
@@ -69,7 +69,7 @@
   font-family: 'Rubik One', sans-serif;
   font-size: 72px;
   /* text-transform: uppercase; */
-  background: linear-gradient(45deg, #eef0f3 33%, #546165 66%, #4bbcdc);
+  background: linear-gradient(45deg, #adb5bd 33%, #dee2e6 56%, #007bff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: #0B2349;
