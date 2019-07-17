@@ -53,7 +53,13 @@ app.get('/team', function (req, res) {
     res.render('team', {
         title:"Команда"
     });
+
 });
+
+
+
+
+
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.listen(3000);

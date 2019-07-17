@@ -1117,25 +1117,18 @@ h3.city-name {
 
 i {
   width: 33.334%;
-  display: inline-block;
-  text-align: center;
-  padding: 25px 0;
-  font-size: 20px;
-  cursor: pointer;
-  font-style: normal;
-  line-height: 22px;
-  letter-spacing: 3.2px;
-  font-family: "Montserrat", Sans-serif;
-  font-weight: 200;
-  text-transform: uppercase;
-  &:hover {
-    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
-    color: rgba(0, 0, 0, 0.5);
-  }
-  &.active {
-    border-bottom: 2px solid rgba(0, 0, 0, 1);
-    color: rgba(0, 0, 0, 1);
-  }
+    display: inline-block;
+    text-align: center;
+    padding: -5px 0;
+    font-size: 19px;
+    cursor: pointer;
+    font-style: normal;
+    line-height: -2px;
+    letter-spacing: 0.2px;
+    font-family: "Montserrat", Sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+  
 }
 
 .category-text {
@@ -1200,22 +1193,22 @@ p:last-child {
 
 .shapes-title {
   max-width: 985px;
-    text-align: center;
-    color: white;
-    color: white;
-    font-family: "Montserrat", Sans-serif;
-    font-style: normal;
-    text-decoration: none;
-    letter-spacing: 1.2px;
-    color: linear-gradient(to top, #fefcea, #f1da36);
-    font-family: 'Rubik One', sans-serif;
-    font-size: 35px;
-    background: linear-gradient(45deg, #4bbcdc 33%, #2b3238 66%, #2c2d2f);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: #0B2349;
-    display: block;
-    margin: 20px auto;
+  text-align: center;
+  color: #2b3238;
+  color: #2b3238;
+  font-family: "Montserrat", Sans-serif;
+  font-style: normal;
+  text-decoration: none;
+  letter-spacing: 1.2px;
+  color: linear-gradient(to top, #fefcea, #f1da36);
+  /* font-family: 'Rubik One', sans-serif; */
+  font-size: 35px;
+  background: linear-gradient(45deg, #495057 43%, #495057 66%, #2b3238);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #2b3238;
+  display: block;
+  margin: 20px auto;
 }
 
 .shapes-word {
@@ -1248,8 +1241,8 @@ p:last-child {
   font-weight: 200;
   font-style: normal;
   text-decoration: none;
-  letter-spacing: 1.2px;
-  width: 72%;
+  letter-spacing: 0.2px;
+  width: 80%;
   margin: auto;
   text-align: justify;
 }
@@ -1339,7 +1332,7 @@ html, body {
 }
 
 .freelance {
-  min-height: 100vh;
+  min-height: 85vh;
   width: 100%;
   background: linear-gradient(#f2f3eb, #2c2d2f);
   padding: 3rem;
@@ -1358,7 +1351,7 @@ html, body {
       color: rgba(255, 255, 255, 0.6);
       font-family: Open Sans;
       font-weight: 300;
-      margin-top: .75rem;
+      margin-top: .65rem;
       font-size: 1.35rem;
     }
   }
@@ -1367,7 +1360,7 @@ html, body {
 .freelance-grid {
   display: flex;
   align-items: center;
-  margin-top: 1.5rem;
+  margin-top: 1.2rem;
   flex-wrap: wrap;
   .grid-item {
     width: 50%;
@@ -1376,9 +1369,9 @@ html, body {
     text-align: center;
     i {
       width: 100%;
-      font-size: 1.5rem;
+      font-size: 1.2rem;
       margin-bottom: .75rem;
-      color: #225782;
+      color: #a2cffd;
       &:nth-child(1) {
         color: #48a8f5;
       }
@@ -1436,7 +1429,7 @@ html, body {
 }
 
 .freelance p {
-  font-size: 1.05rem;
+  font-size: 1rem;
 }
 
 /*section jobs*/
@@ -1914,7 +1907,7 @@ $media768: 768px;
 	text-align: center;
   pointer-events: none;
   height: 325px;
-  top: 70px;
+  top: 135px;
 }
 
 .no-js .mi-slider ul {
@@ -2629,6 +2622,27 @@ Main content
       }
     }
   }
+ .cd-item_text {
+  font-size: 27px;
+  color: #e9ecef;
+  padding: 0px 50px -27px -16px;
+  font-weight: 600;
+  font-style: normal;
+  text-decoration: none;
+  letter-spacing: 1.2px;
+  margin: auto;
+ }
+ .cd-item_batton {
+  color: #4bbcdc;
+  padding-top: 0%;
+  border: 1px solid;
+  width: 34%;
+  height: 6%;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  font-size: 20px;
+ }
   div {
     display: table-cell;
     vertical-align: middle;
