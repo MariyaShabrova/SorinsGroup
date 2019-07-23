@@ -379,7 +379,7 @@ jQuery(document).ready(function($){
 		if( bool ) {
 			/* load and show new content */
 			var foldingContent = foldingPanel.find('.cd-fold-content');
-			foldingContent.load(url+' .cd-fold-content > *', function(event){
+			foldingContent.load(url, function(event){
 				setTimeout(function(){
 					$('body').addClass('overflow-hidden');
 					foldingPanel.addClass('is-open');
