@@ -888,7 +888,7 @@ $(function() {
 /** scroll menu */
 var navHeader = $('#nav-header');
 $(window).scroll(function(){
-  if($(this).scrollTop() > 50) {
+  if($(this).scrollTop() > 200) {
   	navHeader.addClass('scrolled');
   } else {
   	navHeader.removeClass('scrolled');

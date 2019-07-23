@@ -2673,16 +2673,16 @@ Main content
     vertical-align: middle;
   }
   &:nth-of-type(1) {
-    background-color: #363558;
+    background-color: #f4f4f4;
   }
   &:nth-of-type(2) {
-    background-color: #544173;
+    background-color: #f4f4f4;
   }
   &:nth-of-type(3) {
-    background-color: #dadcdc;
+    background-color: #f4f4f4;
   }
   &:nth-of-type(4) {
-    background-color: #65d29b;
+    background-color: #f4f4f4;
   }
   h2 {
     font-size: 2.2rem;
@@ -3148,15 +3148,27 @@ Javascript disabled
   position: fixed;
   width: 100%;
   z-index: 1;
-  transition: all .5s;
+  transition: all 3.5s;
   .language {
-    transition: all .5s;
+    transition: all 3.5s;
   }
   .navbar-brand {
-    transition: all .5s;
+    transition: all 3.5s;
   }
   &.scrolled {
-    background-color: gray;
+    background-color: blue;
+    //position: fixed;
+    animation-duration: 3.5s;
+animation-name: fadeInDown;
+animation-timing-function: ease-in-out;
+background: rgba(0, 0, 0, 1) none repeat scroll 0 0;
+box-shadow: 0 4px 12px -4px rgba(0, 0, 0, 0.75);
+left: 0;
+position: fixed;
+right: 0;
+top: 0;
+width: 100%;
+z-index: 999;
     .language {
       height: 40px;
     }
