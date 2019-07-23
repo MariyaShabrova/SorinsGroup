@@ -1031,9 +1031,33 @@ h3.city-name {
 /*Третья секция*/
 
 .company-info {
-  height: 330px;
+  height: 295px;
 }
-
+.company-title {
+  margin-top: 15px;
+}
+.company-page {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  background: linear-gradient(#f2f3eb 43%, #adb5bd8f, #f2f3eb);
+}
+.company-img_page {
+  margin-top: -134px;
+  position: relative;
+  width: 60%;
+}
+.text-page {
+  width: 100%;
+  padding-top: -37px;  
+}
+.company-page_title {
+  font-size: 25px;
+  background: linear-gradient(45deg, #4bbcdc 33%, #2b3238 66%, #2c2d2f);
+  -webkit-background-clip: text;
+  color: #495057;
+  margin: 20px auto;  
+}
 .company-text {
   font-size: 15px;
   color: white;
@@ -1044,7 +1068,7 @@ h3.city-name {
   font-style: normal;
   text-decoration: none;
   letter-spacing: 1.2px;
-  width: 72%;
+  width: 82%;
   margin: auto;
   text-align: justify;
 }
@@ -1832,6 +1856,7 @@ $media768: 768px;
     z-index: 1;
     box-shadow: 4px 2px 1px $c-shadow-main;
   }
+  
   @media screen and (max-width: $media768) {
     margin: 0 0 0 1.5rem;
   }

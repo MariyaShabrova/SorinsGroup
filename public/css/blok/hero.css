@@ -27,7 +27,7 @@
 }
 
 .maycontainer {
-  background: url(../img/fon.jpg);
+  background: url(../img/fon11.jpg);
   background-repeat: no-repeat;
   height: 630px;
   width: 100%;
@@ -78,33 +78,34 @@
 }
 
 .text_container-title {
-  font-size: 21px;
-  max-width: 985px;
+  font-size: 20px;
+  /* max-width: 985px; */
   text-align: center;
   color: white;
   /* padding: 0px 16px 0px 0px; */
-  color: white;
-  font-family: "Montserrat", Sans-serif;
+  color: #dee2e6;
+  /* font-family: "Montserrat", Sans-serif; */
   /* font-size: 14px; */
   /* font-weight: 400; */
   text-transform: uppercase;
   font-style: normal;
   text-decoration: none;
   line-height: 0px;
-  letter-spacing: 1.2px;
+  letter-spacing: 2.2px;
+}
 }
 
 .text_container-title-item {
-  color: #f8f5f8;
-  font-family: "Montserrat", Sans-serif;
-  font-size: 12px;
-  font-weight: 400;
-  text-transform: uppercase;
-  font-style: normal;
-  text-decoration: none;
-  line-height: 15px;
-  letter-spacing: 5.2px;
-  margin: auto auto 73px;
+    color: #f8f5f8;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 30px;
+    letter-spacing: 3.2px;
+    margin: auto auto 50px;
 }
 
 .hero_list {
