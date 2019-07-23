@@ -885,3 +885,12 @@ $(function() {
 					.addTo(controller);
 
 
+/** scroll menu */
+var navHeader = $('#nav-header');
+$(window).scroll(function(){
+  if($(this).scrollTop() > 50) {
+  	navHeader.addClass('scrolled');
+  } else {
+  	navHeader.removeClass('scrolled');
+  }
+});
