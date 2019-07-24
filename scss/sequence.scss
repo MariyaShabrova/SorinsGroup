@@ -2701,7 +2701,7 @@ Main content
   .cd-item {
     width: 50%;
     float: left;
-    height: 520px;
+    height: 560px;
     -webkit-transition: -webkit-transform 0.5s 0.4s;
     -moz-transition: -moz-transform 0.5s 0.4s;
     transition: transform 0.5s 0.4s;
@@ -3256,9 +3256,7 @@ z-index: 999;
     color: #adb5bdcf;
     padding: 10px;
 }
-.social-list {
 
-}
 .social-link {
   font-size: 17px;
     width: 45px;
@@ -3274,12 +3272,13 @@ z-index: 999;
     border-color: transparent;
 }
 .fa {
-  display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
+display: inline-block;
+font: normal normal normal 14px/1 FontAwesome;
+font-size: inherit;
+text-rendering: auto;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
 }
-.fa-instagram::before {
-  content: "\f0e1";
+.fa-instagram:before {
+  content: "\f095";
 }
