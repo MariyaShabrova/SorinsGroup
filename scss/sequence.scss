@@ -2316,8 +2316,8 @@ textarea {
 }
 
 #container {
-  border: solid 3px #474544;
-  max-width: 768px;
+  /*border: solid 3px #474544;*/
+  max-width: 100%;
   margin: 60px auto;
   position: relative;
 }
@@ -2701,7 +2701,7 @@ Main content
   .cd-item {
     width: 50%;
     float: left;
-    height: 560px;
+    height: 520px;
     -webkit-transition: -webkit-transform 0.5s 0.4s;
     -moz-transition: -moz-transform 0.5s 0.4s;
     transition: transform 0.5s 0.4s;
@@ -3189,9 +3189,10 @@ z-index: 999;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-right: auto;
-  margin-left: auto;
+  /* margin-right: auto; */
+  margin-left: 28px;
   position: relative;
+  /* margin: auto; */
 }
 .elementor-row {
   width: 100%;
@@ -3208,12 +3209,15 @@ z-index: 999;
   display: -ms-flexbox;
   display: flex;
 }
+.elementor-col-45 {
+  width: 50%;
+}
 .elementor-col-35 {
-  width: 35%;
+  width: 50%;
 }
 .elementor-widget-wrap {
   position: relative;
-  width: 100%;
+  width: 70%;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
@@ -3221,9 +3225,34 @@ z-index: 999;
   -ms-flex-line-pack: start;
   align-content: flex-start;
 }
+
+.elementor-widget-wrap-contact {
+  position: relative;
+  width: 100%;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;  
+}
 .elementor-widget-container {
   margin: 0px 0px 22px 0px;
 }
+.elementor-widget-title_info {
+  font-size: 21px;
+  color: #f2f3eb;
+  font-weight: 600;
+  font-style: normal;
+  text-decoration: none;
+  letter-spacing: 1px;
+  margin: auto;
+  text-transform: uppercase;
+  background: linear-gradient(45deg, #adb5bd 23%, #dee2e6 35%, #007bff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .elementor-widget-title {
   font-size: 18px;
     color: #f2f3eb;
@@ -3233,22 +3262,48 @@ z-index: 999;
     letter-spacing: 1px;
     margin: auto;
     text-transform: uppercase;
+    text-align: left;
 }
+
 .elementor-widget-page-site{
     font-family: "Montserrat", Sans-serif;
-    font-size: 13px;
+    font-size: 10px;
     font-weight: 300;
     line-height: 1.715em;
     letter-spacing: 0px;
     text-align: left;
     color: #adb5bdcf;
 }  
+.elementor-widget-page-contact {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 1.715em;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #adb5bdcf;  
+}
+.elementor-widget-page-contact_link {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 1.715em;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #adb5bdcf;  
+}
+.elementor-widget-page-contact_link:hover,
+.elementor-widget-page-contact_link:active {
+  font-size: 16px;
+  color: #2094dd;
+  text-decoration: none;  
+}
 .page-list {
   background: url(/img/bullet1.png) 2px 10px no-repeat;
 }
 .page-item {
   font-family: "Montserrat", Sans-serif;
-    font-size: 13px;
+    font-size: 10px;
     font-weight: 300;
     line-height: 1.715em;
     letter-spacing: 0px;
@@ -3256,7 +3311,27 @@ z-index: 999;
     color: #adb5bdcf;
     padding: 10px;
 }
+.page-item:hover {
+  color: #4bbcdc;
+  text-decoration: none;
+  font-size: 12px;
+}
+.page-item:active {
+  color: #4bbcdc;
+  text-decoration: none;
+  font-size: 12px;
 
+}
+.page-item-social {
+  display: flex;
+  align-items: center; 
+}
+.social-list {
+  margin-left: 5%;
+}
+.social-list-vk {
+  margin-left: -30%;
+}
 .social-link {
   font-size: 17px;
     width: 45px;
@@ -3268,17 +3343,14 @@ z-index: 999;
     border-radius: 27px;
     border-style: none;
     color: #3e3a4f;
-    background-color: #ffffff;
     border-color: transparent;
 }
-.fa {
-display: inline-block;
-font: normal normal normal 14px/1 FontAwesome;
-font-size: inherit;
-text-rendering: auto;
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
+.social-link-item-in {
+  width: 29%;
 }
-.fa-instagram:before {
-  content: "\f095";
+.social-link-item-vk {
+  width: 96%;
+}
+.social-link-item-wp {
+  width: 29%;
 }
