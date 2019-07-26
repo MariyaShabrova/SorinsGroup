@@ -56,6 +56,13 @@ app.get('/team', function (req, res) {
 
 });
 
+app.get('/politics', function (req, res) {
+    res.render('politics', {
+        title:"Политика обработки данных"
+    });
+
+});
+
 
 
 

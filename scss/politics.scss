@@ -1,0 +1,106 @@
+.perconal-title {
+color: #010101;
+font-size: 50px !important;
+font-weight: 100;
+line-height: 1;
+margin: 28px 0 0 -0.11em !important;
+}
+.col-md-9 col-sm-12 {
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    
+}
+.cf::before {
+display: table;
+line-height: 0;
+content: '';
+}
+.wrap-content_perconal {
+
+margin-top: 67px;
+}
+.wrap-content-title {
+    font-size: 2em;
+    color: rgba(65, 61, 147, 0.74);
+    padding: 0px 50px -27px -16px;
+    color: #2b3238;
+    font-family: "Montserrat", Sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-decoration: none;
+    letter-spacing: 0.2px;
+    width: 100%;
+    margin: auto;
+    text-align: justify;
+    color: rgba(42, 128, 211, 0.73);
+}
+.wrap-content-text {
+    font-size: 1em;
+    color: rgba(65, 61, 147, 0.74);
+    padding: 0px 50px -27px -16px;
+    color: #2b3238;
+    font-family: "Montserrat", Sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-decoration: none;
+    letter-spacing: 0.2px;
+    width: 100%;
+    margin: auto;
+    text-align: justify; 
+    margin-top: 20px; 
+}
+.wrap-content-text_item {
+    font-size: 1em;
+    color: rgba(65, 61, 147, 0.74);
+    padding: 0px 50px -27px -16px;
+    color: #2b3238;
+    font-family: "Montserrat", Sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-decoration: none;
+    letter-spacing: 0.2px;
+    width: 100%;
+    margin: auto;
+    text-align: justify; 
+    margin-top: 20px; 
+}
+.wrap-content-text_item::before {
+content: '';
+display: inline-block;
+width: 8px;
+height: 8px;
+border-radius: 50%;
+//position: absolute;
+top: 0.5em;
+left: -10px;
+background-color: #3293da;
+}
+.wrap-content-text span {
+    font-weight: 400;
+    padding: 7px;
+    font-size: 16px;
+}
+.wrap-content-text_ol {
+    font-size: 1em;
+    color: rgba(65, 61, 147, 0.74);
+    padding: 0px 50px -27px -16px;
+    color: #2b3238;
+    font-family: "Montserrat", Sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-decoration: none;
+    letter-spacing: 0.2px;
+    width: 100%;
+    margin: auto;
+    text-align: justify; 
+    margin-top: 20px;    
+}
+.wrap-content-text_ol::before {
+content: '\25c7';
+font-size: 16px;
+font-weight: 500;
+color: rgba(104, 180, 196, 0.96);
+
+}
