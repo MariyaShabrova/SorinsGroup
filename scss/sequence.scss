@@ -3136,6 +3136,11 @@ Javascript disabled
   /*padding-top: 94px;*/
 }
 
+@media screen and (max-width: 480px) {
+  .navbar {
+    padding: 0.3rem 0.5rem;
+  }
+}
 #nav-header {
   /*position: fixed;
   width: 100%;
@@ -3175,8 +3180,28 @@ z-index: 999;
     }
   }
 }
+@media screen and (max-width: 480px) {
+  .logo {
+    width: 65%;
+    margin-left: -30px;
+  }
+}
 
 /**Footer**/
+.section-form {
+  background: linear-gradient(45deg, #49505763 43%, #f8f9fa 56%, rgba(0, 0, 0, 0.3));
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 2em;
+  border-radius: 50px;
+  /* background: #adb5bd radial-gradient(circle at 0 0, #adb5bd, rgba(255,255,255,.35)); */
+  box-shadow: inset #495057 -3px -3px 8px, inset #6c757d 3px 3px 8px, #2b3238 3px 3px 8px -3px;
+  /* height: 853px; */
+  /* width: 135px; */
+  /* display: inline-block; */
+  box-shadow: inset 2px 2px 9px 0px #6c757d, 2px 2px 9px 1px #6c757d;
+  margin-bottom: 1em;
+}
 
 .elementor-info {
   background-color: #262626;

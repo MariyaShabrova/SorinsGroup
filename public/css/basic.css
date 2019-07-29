@@ -1548,8 +1548,9 @@ body {
 @media screen and (max-width: 480px) {
   .text_container-title-item {
     font-size: 8px;
-    letter-spacing: 2.2px;
-    margin: auto auto 35px;
+    letter-spacing: 1.2px;
+    margin: auto auto 27px;
+    line-height: 13px;
   }
 }
 
