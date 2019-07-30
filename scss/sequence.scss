@@ -1271,7 +1271,7 @@ p:last-child {
   position: relative;
   overflow: hidden;
   width: auto;
-  margin-top: -19px;
+  margin-top: -17px;
 }
 
 .shape--pentagon {
@@ -1330,7 +1330,7 @@ html, body {
 }
 
 .contain {
-  max-width: 960px;
+  //max-width: 960px;
   width: 90%;
   margin: 0 auto;
 }
@@ -1369,11 +1369,11 @@ html, body {
   .grid-item {
     width: 50%;
     color: #fff;
-    padding: 3rem;
+    padding: 1rem;
     text-align: center;
     i {
       width: 100%;
-      font-size: 1.2rem;
+      //font-size: 1.2rem;
       margin-bottom: .75rem;
       color: #a2cffd;
       &:nth-child(1) {
@@ -1387,7 +1387,9 @@ html, body {
     }
   }
 }
-
+.shoes1 {
+  width: 28%;  
+}
 @media (max-width: 900px) {
   .freelance-grid .grid-item {
     width: 100%;
@@ -1855,23 +1857,22 @@ $media768: 768px;
   
 }
 .title-mi-slider {
-    max-width: 985px;
-    text-align: center;
-    color: white;
-    color: white;
-    font-family: "Montserrat", Sans-serif;
-    font-style: normal;
-    text-decoration: none;
-    letter-spacing: 1.2px;
-    color: linear-gradient(to top, #fefcea, #f1da36);
-    font-family: 'Rubik One', sans-serif;
-    font-size: 35px;
-    background: linear-gradient(45deg, #4bbcdc 33%, #2b3238 66%, #2c2d2f);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: #0B2349;
-    display: block;
-    margin: 20px auto;
+  max-width: 985px;
+  text-align: center;
+  color: #2b3238;
+  color: #2b3238;
+  font-family: "Montserrat", Sans-serif;
+  font-style: normal;
+  text-decoration: none;
+  letter-spacing: 1.2px;
+  color: linear-gradient(to top, #fefcea, #f1da36);
+  font-size: 35px;
+  background: linear-gradient(45deg, #495057 43%, #495057 66%, #2b3238);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #2b3238;
+  display: block;
+  margin: 20px auto;
 }
 .title_item {
   font-size: 17px;
@@ -2536,7 +2537,24 @@ Main content
     transition: transform 0.5s 0s;
   }
 }
-
+.cd-main_title {
+  max-width: 985px;
+  text-align: center;
+  color: #2b3238;
+  color: #2b3238;
+  font-family: "Montserrat", Sans-serif;
+  font-style: normal;
+  text-decoration: none;
+  letter-spacing: 1.2px;
+  color: linear-gradient(to top, #fefcea, #f1da36);
+  font-size: 35px;
+  background: linear-gradient(45deg, #495057 43%, #495057 66%, #2b3238);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #2b3238;
+  display: block;
+  margin: 45px auto;
+}
 @media only screen and (min-width: 600px) {
   .cd-main.fold-is-open > * {
     -webkit-transform: translateX(600px);
@@ -2872,11 +2890,10 @@ folding panel
     position: absolute;
     z-index: 1;
     display: inline-block;
-    top: 10px;
-    right: 10px;
-    height: 44px;
-    width: 44px;
-    /* image replacement */
+    top: 80px;
+    right: 30px;
+    height: 50px;
+    width: 50px;
     overflow: hidden;
     text-indent: 100%;
     white-space: nowrap;
@@ -3016,6 +3033,7 @@ folding panel
   -webkit-transition: visibility 0s 0.4s;
   -moz-transition: visibility 0s 0.4s;
   transition: visibility 0s 0.4s;
+  background: linear-gradient(45deg, #6c757d 0%, #f8f9fa 50%, #adb5bd);
   > * {
     opacity: 0;
     -webkit-transform: translateY(20px);
@@ -3072,6 +3090,22 @@ folding panel
     -webkit-transition: -webkit-transform 0.2s 0.5s, opacity 0.2s 0.5s;
     -moz-transition: -moz-transform 0.2s 0.5s, opacity 0.2s 0.5s;
     transition: transform 0.2s 0.5s, opacity 0.2s 0.5s;
+    max-width: 985px;
+    text-align: center;
+    color: #2b3238;
+    color: #2b3238;
+    font-family: "Montserrat", Sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    letter-spacing: 1.2px;
+    color: linear-gradient(to top, #fefcea, #f1da36);
+    font-size: 35px;
+    background: linear-gradient(45deg, #495057 43%, #495057 66%, #2b3238);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #2b3238;
+    display: block;
+    margin: 50px auto;
   }
   em {
     -webkit-transition: -webkit-transform 0.2s 0.6s, opacity 0.2s 0.6s;
@@ -3082,6 +3116,23 @@ folding panel
     -webkit-transition: -webkit-transform 0.2s 0.7s, opacity 0.2s 0.7s;
     -moz-transition: -moz-transform 0.2s 0.7s, opacity 0.2s 0.7s;
     transition: transform 0.2s 0.7s, opacity 0.2s 0.7s;
+    max-width: 985px;
+    text-align: center;
+    color: #2b3238;
+    color: #2b3238;
+    font-family: "Montserrat", Sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    letter-spacing: 1.2px;
+    color: linear-gradient(to top, #fefcea, #f1da36);
+    font-size: 19px;
+    background: linear-gradient(45deg, #495057 43%, #495057 66%, #2b3238);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #2b3238;
+    display: block;
+    margin: 20px auto;
+    text-align: justify;
   }
 }
 
@@ -3189,20 +3240,41 @@ z-index: 999;
 
 /**Footer**/
 .section-form {
-  background: linear-gradient(45deg, #49505763 43%, #f8f9fa 56%, rgba(0, 0, 0, 0.3));
-  max-width: 1230px;
+  /*background: linear-gradient(45deg, rgba(73,80,87,0.388235) 43%, #f8f9fa 56%, rgba(0,0,0,0.3)); */
+    max-width: 1230px;
+    margin: 0 auto;
+    /*padding: 2em;
+    border-radius: 50px;
+    /* box-shadow: inset #495057 -3px -3px 8px, inset #6c757d 3px 3px 8px, #2b3238 3px 3px 8px -3px; */
+    /* box-shadow: inset 2px 2px 9px 0px #6c757d, 2px 2px 9px 1px #6c757d; */
+    margin-bottom: 1em;
+    /* width: 71%; */
+    /* max-width: 550px; */
+    /* margin: 2em auto; */
+    padding: 1em;
+    /* background: #DADADA; */
+    /* box-shadow: 6px 6px #BBBBBB, 12px 12px #919191; */
+}
+.container .form {
+  display: flex;
+  max-width: 100%;
+    margin: 10px auto;
+    position: relative;
+    background-color: #262626;
+}
+.content-form {
+  width: 45%;
+}
+.img_wrapper-form {
+  margin-left: 31%;
+}
+#contact_form {
+  background-color: #f2f3eb;
+  width: 50%;
   margin: 0 auto;
   padding: 2em;
-  border-radius: 50px;
-  /* background: #adb5bd radial-gradient(circle at 0 0, #adb5bd, rgba(255,255,255,.35)); */
-  box-shadow: inset #495057 -3px -3px 8px, inset #6c757d 3px 3px 8px, #2b3238 3px 3px 8px -3px;
-  /* height: 853px; */
-  /* width: 135px; */
-  /* display: inline-block; */
-  box-shadow: inset 2px 2px 9px 0px #6c757d, 2px 2px 9px 1px #6c757d;
-  margin-bottom: 1em;
+  box-shadow: 0 0 0 1px #ccc, 0 -20px 0 -10px #4bbcdc, 20px 0 0 -10px #7d40ff, 0 20px 0 -10px #90c1ff, -20px 0 0 -10px #3e5bff;
 }
-
 .elementor-info {
   background-color: #262626;
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
