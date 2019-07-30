@@ -1,0 +1,20 @@
+@media (max-width: 960px) {
+    #nav-header {
+        .language-list {
+           
+           img {
+               width: 50px; 
+           }
+           .language-item {
+               display: inline-block;
+           }
+        }
+        .sky-mega-menu li > div {
+            position: static;
+            opacity: 1;
+            transform: none;
+            width: 100%;
+        }
+    }
+
+}

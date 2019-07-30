@@ -2316,11 +2316,12 @@ textarea {
   overflow: auto;
 }
 
-#container {
-  /*border: solid 3px #474544;*/
+#container-form-content {
   max-width: 100%;
   margin: 60px auto;
   position: relative;
+  display: flex;
+  background: black;
 }
 
 form {
@@ -3492,3 +3493,5 @@ z-index: 999;
   color: #040101;
   background-color: rgba(0,0,0,0.13);  
 }
+
+@import "media.scss";

@@ -2,11 +2,16 @@ var express = require('express');
 var exphbs  = require('express-handlebars');
 var path = require('path');
 var sassMiddleware = require('node-sass-middleware');
+var cookieParser = require('cookie-parser')
  
 var app = express();
  
 app.engine('handlebars', exphbs());
 app.set('view engine', 'handlebars');
+
+// cookie//
+
+app.use(cookieParser());
  
 app.use(sassMiddleware({
     src: path.join(__dirname, 'scss'),
@@ -17,7 +22,8 @@ app.use(sassMiddleware({
 }));
 
 app.get('/', function (req, res) {
- 
+    
+
     const items = [
         {
             title: "Геоинформационные системы", 
@@ -45,7 +51,8 @@ app.get('/', function (req, res) {
 
     res.render('home', {
         title:"Главная", 
-        items: items
+        items: items,
+        rus: req.cookies.lang == 'rus'
     });
 });
  
@@ -55,10 +62,20 @@ app.get('/team', function (req, res) {
     });
 
 });
+app.get('/lang/:language', function (req, res){
+ res.cookie('lang', req.params.language);
+ var backURL=req.header('Referer') || '/';
+  // do your thang
+  res.redirect(backURL);
+ 
 
+})
 app.get('/politics', function (req, res) {
+    console.log(req.cookies)
     res.render('politics', {
-        title:"Политика обработки данных"
+        title:"Политика обработки данных",
+        rus: req.cookies.lang == 'rus'
+        
     });
 
 });
