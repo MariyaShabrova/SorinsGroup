@@ -3197,20 +3197,20 @@ Javascript disabled
   /*position: fixed;
   width: 100%;
   z-index: 1;*/
-  transition: all 3.5s;
+  transition: all 1.5s;
   .language {
-  transition: all 3.5s;
+  transition: all 1.5s;
   }
   .navbar-brand {
-  transition: all 3.5s;
+  transition: all 1.5s;
   }
   .logo {
-  transition: all 10.5s; 
+  transition: all 3.5s; 
   }
   &.scrolled {
     background-color: blue;
     //position: fixed;
-    animation-duration: 3.5s;
+    animation-duration: 1.5s;
 animation-name: fadeInDown;
 animation-timing-function: ease-in-out;
 background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
