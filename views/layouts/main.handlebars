@@ -28,17 +28,18 @@
                     <div class="language">
                         <ul class="language-list">
                             <li class="language-item">
-                                <a href="/lang/rus">
-                                <img class="language-img" src="/img/russia.svg">
+                                <a class="language-item-click" href="/lang/rus">
+                                <img class="language-img" src="/img/russia.svg">RU
                             </a>
                             </li>
                             <li class="language-item">
-                                <a href="/lang/eng">
-                                <img class="language-img" src="/img/united-states.svg">
+                                <a class="language-item-click" href="/lang/eng">
+                                <img class="language-img" src="/img/united-states.svg">ENG
                             </a>
                             </li>
                         </ul>
                     </div>
+                     {{#if rus}}
                     <ul class="navbar-nav ml-auto sky-mega-menu sky-mega-menu-anim-flip">
                         <li class="nav-item" aria-haspopup="true">
                             <a class="fa-text" href="#">О компании</a>
@@ -77,6 +78,46 @@
                         </li>
                         
                     </ul>
+                     {{else}}
+                                <ul class="navbar-nav ml-auto sky-mega-menu sky-mega-menu-anim-flip">
+                        <li class="nav-item" aria-haspopup="true">
+                            <a class="fa-text" href="#">Company</a>
+                        </li>
+                        <li class="nav-item" aria-haspopup="true">
+                                <a class="fa-text" href="#">Service</a>
+                                <div class="grid-container3">
+                                    <ul>
+                                        <li aria-haspopup="true">
+                                            <a href="#"><i class="fa fa-group"></i>Web-development and complex IT-systems</a>
+                                            
+                                                    <li aria-haspopup="true">
+                                                        <a href="#"><i class="fa fa-male"></i>Mobile development</a>
+                                                    </li>
+                                                    <li aria-haspopup="true">
+                                                        <a href="#"><i class="fa fa-female"></i>IT development autsourcing</a>
+                                                    </li>
+                                                    <li aria-haspopup="true">
+                                                        <a href="#"><i class="fa fa-male"></i>IT-consulting</a>
+                                                    </li>
+                                                    <li><a href="#"><i class="fa fa-female"></i>Organization of Call-centers</a>
+                                                    </li>
+                                                    <li><a href="#"><i class="fa fa-female"></i>IT administration</a>
+                                                    </li>
+                                    </ul>
+                                </div>
+                        <li class="nav-item">
+                            <a class="fa-text" href=".//">Vacancies</a>
+                        </li>        
+                            
+                        <li class="nav-item">
+                            <a class="fa-text" href=".//">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="fa-text" href=".//">Contact</a>
+                        </li>
+                        
+                    </ul> 
+                    {{/if}}        
                 </div>
             </nav>
            
