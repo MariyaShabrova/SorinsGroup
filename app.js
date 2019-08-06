@@ -3,11 +3,15 @@ var exphbs  = require('express-handlebars');
 var path = require('path');
 var sassMiddleware = require('node-sass-middleware');
 var cookieParser = require('cookie-parser')
+var bodyParser = require("body-parser");
+var nodemailer = require('nodemailer');
+var config = require("./config");
  
 var app = express();
  
 app.engine('handlebars', exphbs());
 app.set('view engine', 'handlebars');
+app.use(bodyParser());
 
 // cookie//
 
@@ -52,7 +56,8 @@ app.get('/', function (req, res) {
     res.render('home', {
         title:"Главная", 
         items: items,
-        rus: req.cookies.lang == 'rus'
+        rus: req.cookies.lang == 'rus',
+        eng: req.cookies.lang == 'eng'
     });
 });
  
@@ -74,12 +79,39 @@ app.get('/politics', function (req, res) {
     console.log(req.cookies)
     res.render('politics', {
         title:"Политика обработки данных",
-        rus: req.cookies.lang == 'rus'
-        
+        rus: req.cookies.lang == 'rus',
+        eng: req.cookies.lang == 'eng'
     });
 
 });
 
+app.post('/mail', function (req, res) {
+    console.log(req.body)
+    var subject =req.body.subject;
+    var transporter = nodemailer.createTransport({
+        host: 'smtp.mail.ru',
+        port: 465,
+        auth: {
+          user: config.user,
+          pass: config.pass
+        }
+      });
+      
+      var mailOptions = {
+        from: config.user,
+        to: '5107724@gmail.com',
+        subject: subject,
+        text: req.body.message+" phone:"+req.body.telephone
+      };
+      
+      transporter.sendMail(mailOptions, function(error, info){
+        if (error) {
+            res.send(error);
+        } else {
+            res.send('ok');
+        }
+      });
+});
 
 
 

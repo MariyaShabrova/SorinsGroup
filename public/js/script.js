@@ -205,6 +205,27 @@ $(document).ready(function() {
 
 } )( jQuery, window );
 
+// form feedback
+
+$("#contact_form").submit(function(e){
+e.preventDefault();
+var form=$(this);
+console.log(form.serialize())
+form.addClass("disabled");
+$.ajax({
+  type: "POST",
+  url: "/mail",
+  data: form.serialize()
+}).done(function() {
+	form.removeClass("disabled");
+	alert("success")
+}).fail(function() {
+  form.removeClass("disabled");
+  alert('error!');
+});
+return false;
+})
+
 //
 
 jQuery(document).ready(function($){

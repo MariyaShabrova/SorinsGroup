@@ -4343,7 +4343,8 @@ h2 {
 }
 
 button:hover {
-  background-color: #f2f3eb;
+  background: #474544;
+  color: #F2F3EB;
 }
 
 .subscribe-form {
