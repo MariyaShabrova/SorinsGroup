@@ -85,6 +85,16 @@ app.get('/politics', function (req, res) {
 
 });
 
+app.get('/personal', function (req, res) {
+    console.log(req.cookies)
+    res.render('personal', {
+        title:"согласие обработки данных",
+        rus: req.cookies.lang == 'rus',
+        eng: req.cookies.lang == 'eng'
+    });
+
+});
+
 app.post('/mail', function (req, res) {
     console.log(req.body)
     var subject =req.body.subject;

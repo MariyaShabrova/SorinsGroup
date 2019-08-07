@@ -89,14 +89,27 @@
   padding: 0px 16px 0px 0px;
   color: #e9ecef;
   font-family: "Montserrat", Sans-serif;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 400;
   text-transform: uppercase;
   font-style: normal;
   text-decoration: none;
-  line-height: 24px;
-  letter-spacing: 1.2px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
 }
+.hero_list-item-text-eng {
+  padding: 0px 16px 0px 0px;
+  color: #e9ecef;
+  font-family: 'EB Garamond', serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 22px;
+  letter-spacing: 0.5px;
+}
+
 .language {
   display: flex;
   position: relative;
@@ -534,14 +547,14 @@ h3.city-name {
   background: linear-gradient(45deg, #4bbcdc 33%, #2b3238 66%, #2c2d2f);
   -webkit-background-clip: text;
   color: #495057;
-  margin: 20px auto;  
+  margin: 20px auto; 
+  font-weight: 400; 
 }
 .company-text {
-  font-size: 15px;
+  font-size: 16px;
   color: white;
   padding: 0px 50px -27px -16px;
   color: #2b3238;
-  font-family: "Montserrat", Sans-serif;
   font-weight: 200;
   font-style: normal;
   text-decoration: none;
@@ -890,7 +903,8 @@ html, body {
   }
 }
 .shoes1 {
-  width: 28%;  
+  width: 125px;
+  margin-top: 28px; 
 }
 @media (max-width: 900px) {
   .freelance-grid .grid-item {
@@ -1382,7 +1396,7 @@ $media768: 768px;
   max-width: 985px;
   text-align: center;
   color: white;
-  color: #6c757d;
+  color: #3b4044;
   font-family: "Montserrat", Sans-serif;
   text-transform: uppercase;
   font-style: normal;
@@ -1448,7 +1462,7 @@ $media768: 768px;
     transform: translateX(600%);
     -webkit-transition: opacity 0.2s linear;
     transition: opacity 0.2s linear;
-    height: 235px;
+    height: 270px;
 }
 
 .no-js .mi-slider ul li {
@@ -1507,6 +1521,7 @@ $media768: 768px;
   width: 100%;
   margin: auto;
   text-align: justify;
+  line-height: 23px;
 }
 
 
@@ -1598,7 +1613,7 @@ $media768: 768px;
   height: 46px !important;
   font-size: 12px !important;
   line-height: 33px !important;
-  padding: 7px 58px 12px !important;
+  padding: 7px 62px 12px !important;
   font-family: "Montserrat", Sans-serif;
   font-size: 11px;
   font-weight: 800;
@@ -2216,6 +2231,12 @@ Main content
     color: #040101;
     background-color: rgba(0, 0, 0, 0.13);
  }
+ .cd-item_batton:hover,
+ .cd-item_batton:active {
+  background: #474544;
+  color: #F2F3EB;
+ }
+ 
   div {
     display: table-cell;
     vertical-align: middle;
@@ -2731,7 +2752,7 @@ Javascript disabled
   }
 }
 #nav-header {
-  height: 65px;
+  /*height: 65px;*/
   transition: all 1.5s;
   .language {
   transition: all 1.5s;
@@ -2741,7 +2762,6 @@ Javascript disabled
   }
   .logo {
   transition: all 3.5s; 
-  width: 90%;
   }
   &.scrolled {
     background-color: blue;

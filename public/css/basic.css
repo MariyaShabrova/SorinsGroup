@@ -1436,11 +1436,6 @@ body {
   margin: 0 auto;
 }
 
-@media screen and (max-width: 480px) {
-  .hero_container {
-    padding-top: 18px;
-  }
-}
 
 .maycontainer {
   background: url(../img/fon11.jpg);
@@ -1465,13 +1460,7 @@ body {
   clip-path: polygon(0% 0%, 100% 0, 100% 80%, 0 100%);
 }
 
-@media screen and (max-width: 480px) {
-  .maycontainer {
-    height: 390px;
-    background: url(../img/fon11.jpg);
-    background-size: 225%;
-  }
-}
+
 
 .hero-title {
   font-size: 30px;
@@ -1502,13 +1491,6 @@ body {
   filter: drop-shadow(5px 7px 4px black);
 }
 
-@media screen and (max-width: 480px) {
-  .hero-title {
-    font-size: 32px;
-    margin: 0px auto;
-    filter: drop-shadow(5px 7px 4px black);
-  }
-}
 
 .text_container-title {
   font-size: 20px;
@@ -1528,11 +1510,6 @@ body {
 
 }
 
-@media screen and (max-width: 480px) {
-  .text_container-title {
-    font-size: 12px;
-  }
-}
 
 .text_container-title-item {
   color: #f8f5f8;
@@ -1547,14 +1524,6 @@ body {
   margin: auto auto 50px;
 }
 
-@media screen and (max-width: 480px) {
-  .text_container-title-item {
-    font-size: 8px;
-    letter-spacing: 1.2px;
-    margin: auto auto 27px;
-    line-height: 13px;
-  }
-}
 
 .hero_list {
   display: -webkit-box;
@@ -1565,11 +1534,6 @@ body {
   justify-content: space-between;
 }
 
-@media screen and (max-width: 480px) {
-  .hero_list {
-    display: inline-block;
-  }
-}
 
 .hero_list-item {
   max-width: 180px;
@@ -1578,25 +1542,12 @@ body {
   font-weight: 300;
 }
 
-@media screen and (max-width: 480px) {
-  .hero_list-item {
-    display: inline-block;
-  }
-}
 
 .hero_list-item-img {
   min-height: 144px;
   display: block;
 }
 
-@media screen and (max-width: 480px) {
-  .hero_list-item-img {
-    min-height: 85px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-}
 
 .hero_list-img {
   margin-bottom: 30px;
@@ -1605,12 +1556,6 @@ body {
   fill: #4bbcdc;
 }
 
-@media screen and (max-width: 480px) {
-  .hero_list-img {
-    max-height: 70px;
-    margin-bottom: 10px;
-  }
-}
 
 .hero_list-item-text {
   padding: 0px 16px 0px 0px;
