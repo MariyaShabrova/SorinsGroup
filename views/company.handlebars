@@ -1,7 +1,17 @@
+<section class="title_section">
+    <ul class="breadcrumb">
+        <li>
+            <a href="/">Главная</a>
+        </li>
+        <li class="divider"></li>
+        <li class="activ">О компании</li>
+    </ul>
+
+</section>
 <section class="wrapper-company">
     <div class="container-wrapper">
   <div class="company-container">
-          <h1 class="company-title">Sorins Group</h1> 
+          <h1 class="company_title">Sorins Group</h1> 
 {{#if rus}}
           <h2 class="company-text-page">О КОМПАНИИ</h2> 
 {{else}}              
@@ -12,20 +22,167 @@
 </section>
 <section class="section-variant">
     <div class="way-point">
-        <svg version="1.1" x="0px" y="0px" width="253px" height="38px" enable-background="new 0 0 253 38" xml:space="preserve">
+        <svg class="way-point-svg" version="1.1" x="0px" y="0px" width="253px" height="38px" enable-background="new 0 0 253 38" xml:space="preserve">
             <path style="clip-path: url(#gel)" fill-rule="evenodd" clip-rule="evenodd" d="M252,36.001C199.397,36.001,176,0,125.815,0C76,0,52.988,36.001,0,36.001C4.336,40.465,273.563,36.001,252,36.001z"></path>
           </svg>
         <span class="way-point_icon">
         </span>
     </div>
-<div class="company-page">
-<p>
-          Cовременная российская IT- компания, оказывающпя полный спектр по проектированию, разработке 
-          и внедрению программного обеспечения. Внедряемые подходы и решения основаны на эффективных технологиях 
-          управления и приносят реальный экономический эффект для Заказчиков. 
+<div class="company-variant-page">
+<p class="company-variant-page-text">
+    Cовременная российская IT- компания, оказывающая полный спектр по проектированию, разработке 
+    и внедрению программного обеспечения. Внедряемые подходы и решения основаны на эффективных технологиях 
+    управления и приносят реальный экономический эффект для Заказчиков. 
+</p>
+<p class="company-variant-page-text">
     Наше достояние-команда профессионалов, обладающих высокими компетенциями в своих областях и способные решать задачи любой сложности,
     а стратегическое партнерство с ведущими российскими и зарубежными компаниями предоставляет нашим заказчикам возможность
     получения конкурентноспособных решений мирового уровня.
 </p>
+<p class="company-variant-page-text">
+    Основу деятельности компании составляет проектная деятельность, это определяет характер
+    организационной структуры. Матричная структура управления позволяет масштабировать бизнес
+    в зависимости от объемов проектов и гарантировать выполнение обязательств перед нашими
+    клиентами, партнерами и сотрудниками. Дополнительной гарантией результата является
+    используемая в компании система персональной ответственностью каждого участника проекта за
+    общий результат. Проектная деятельность проводится с использованием международных
+    стандартов управления проектами PMI. Также используемая в компании система менеджмента
+    качества в соответствие с международным стандартом ISO 9001:2000 обеспечивает стабильность
+    качества предлагаемых услуг
+</p>
 </div>
   </section>
+
+
+
+
+
+
+  <section class="section-form">
+  <div id="container-form-content">
+    <div class="content-form">
+{{#if rus}}      
+    <h1>&bull; Расскажите нам о Ваших бизнес-задачах и мы предложим наиболее оптимальное решение &bull;</h1>
+{{else}}    
+    <h1>&bull; Tell us about Your business tasks and we will offer the most optimal solution &bull;</h1>
+{{/if}}    
+    <div class="underline">
+    </div>
+   
+    <div class="img_wrapper-form">
+      <img src="/img/forma.png">
+    </div>
+    </div>
+{{#if rus}}    
+    <form action="#" method="post" id="contact_form">
+      <div class="name">
+        <label for="name"></label>
+        <input type="text" placeholder="Ваше Имя" name="name" id="name_input" required>
+      </div>
+      <div class="email">
+        <label for="email"></label>
+        <input type="email" placeholder="Ваш E-mail" name="email" id="email_input" required>
+      </div>
+      <div class="telephone">
+        <label for="name"></label>
+        <input type="text" placeholder="Ваш телефон" name="telephone" id="telephone_input" required>
+      </div>
+      <div class="subject">
+        <label for="subject"></label>
+        <select placeholder="Тема" name="subject" id="subject_input" required>
+          <option disabled hidden selected>Тема</option>
+          <option>Web-разработка</option><br>
+          <option>Мобильная разработка</option><br>
+          <option>Аутсорсинг</option><br>
+          <option>Консалтинг</option><br>
+          <option>Инфраструктурные проекты</option><br>
+          <option>Партнерство</option><br>
+          <option>Другое</option><br>
+        </select>
+      </div>
+      <div class="message">
+        <label for="message"></label>
+        <textarea name="message" placeholder="Вас интересует...." id="message_input" cols="30" rows="5" required></textarea>
+      </div>
+
+
+      <div class="checkbox">
+        <div class="checkbox-blok">
+        <label class="checkbox-control"></label>
+        <input type="checkbox" name="Checkbox" value="yes" class="t-checkbox" data-tilda-req="1" required>
+        <div class="checkboz-indicator" style="border-color:#ffffff;"></div>
+        <div class="checkbox-labeltext" style="display: inline">Ознакомлен с 
+          <a href="politics"> <u>Политикой в области обработки персональных данных</u>
+          </a>
+          и даю
+          <a href="personal"> <u>согласие на их обработку</u>
+          </a>
+        </div>
+        </label>
+        </div>
+      </div>
+
+
+      <div class="submit">
+        <input type="submit" value="Отправить" id="form_button" />
+      </div>
+    </form><!-- // End form -->
+{{else}}
+    <form action="#" method="post" id="contact_form">
+      <div class="name">
+        <label for="name"></label>
+        <input type="text" placeholder="Your name" name="name" id="name_input" required>
+      </div>
+      <div class="email">
+        <label for="email"></label>
+        <input type="email" placeholder="Your E-mail" name="email" id="email_input" required>
+      </div>
+      <div class="telephone">
+        <label for="name"></label>
+        <input type="text" placeholder="Your phone" name="telephone" id="telephone_input" required>
+      </div>
+      <div class="subject">
+        <label for="subject"></label>
+        <select placeholder="Tema" name="subject" id="subject_input" required>
+          <option disabled hidden selected>Tema</option>
+          <option>Web development</option><br>
+          <option>Mobile development</option><br>
+          <option>Outsourcing</option><br>
+          <option>Consulting</option><br>
+          <option>Infrastructure project</option><br>
+          <option>Partnership</option><br>
+          <option>Else</option><br>
+        </select>
+      </div>
+      <div class="message">
+        <label for="message"></label>
+        <textarea name="message" placeholder="Interest you...." id="message_input" cols="30" rows="5" required></textarea>
+      </div>
+
+
+      <div class="checkbox">
+        <div class="checkbox-blok">
+        <label class="checkbox-control"></label>
+        <input type="checkbox" name="Checkbox" value="yes" class="t-checkbox" data-tilda-req="1" required>
+        <div class="checkboz-indicator" style="border-color:#ffffff;"></div>
+        <div class="checkbox-labeltext" style="display: inline">Acquainted with
+          <a href="politics"> <u>Personal data processing policy</u>
+          </a>
+          and I give
+          <a href="personal"> <u>consent to their processing</u>
+          </a>
+        </div>
+        </label>
+        </div>
+      </div>
+
+
+      <div class="submit">
+        <input type="submit" value="Send" id="form_button" />
+      </div>
+    </form><!-- // End form -->
+{{/if}}    
+
+  </div><!-- // End #container -->
+
+</section>
