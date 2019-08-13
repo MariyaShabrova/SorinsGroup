@@ -289,6 +289,8 @@ function defineSequence(imagesLoaded, Hammer) {
       };
     }
 
+
+
     /**
      * Determine the prefix to use for the pageVisibility API
      */
