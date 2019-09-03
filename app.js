@@ -16,7 +16,8 @@ app.use(bodyParser());
 // cookie//
 
 app.use(cookieParser());
- 
+if (config.mode=="local") {
+
 app.use(sassMiddleware({
     src: path.join(__dirname, 'scss'),
     dest: path.join(__dirname, 'public/css/'),
@@ -24,7 +25,7 @@ app.use(sassMiddleware({
     outputStyle: 'compressed',
     prefix: '/css'
 }));
-
+}
 app.get('/', function (req, res) {
     
 
@@ -137,7 +138,7 @@ app.post('/mail', function (req, res) {
 
 
 
-
+const port=(config.mode=="local") ? 3000 :80;
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.listen(3000);
+app.listen(port);
