@@ -4,11 +4,11 @@
 .title_section::before {
     content: '';
     position: absolute;
-    left: -3000px;
-    right: -3000px;
+    left: 0;
+    right: 0;
     top: 0;
     bottom: 0;
-    background-color: #8fa7a9;
+    background-color: #ffff;
     z-index: -1;
 }
 .title_section:active {
@@ -25,7 +25,7 @@
 .breadcrumb li {
     font-size: 20px;
     line-height: 20px;
-    color: white;
+    color: rgb(170, 192, 251);
     text-shadow: none;
     padding-left: 10px;
 }
@@ -41,16 +41,16 @@
 }
 .wrapper-company {
     background-color: white;
-    height: 490px;
+    height: 390px;
 }
 
 .container-wrapper {
-    background: url(/img/0001.png) no-repeat;
+    background: url(/img/imgfon1.png) no-repeat;
     width: 100%;
-    height: 400px;
+    height: 160px;
     max-width: 1500px;
     margin: 0 auto;
-    background-size: cover;
+    
 
 }
 
@@ -153,3 +153,59 @@
     text-indent: 30px;
 
 }
+
+
+
+.blok{
+    color:#fff;
+    z-index:1;
+    height:50px;
+    width:50px;
+    background:#95CAE4;
+    /*
+       -webkit-animation-name:zwevend;
+       -webkit-animation-duration:1s;
+       -webkit-animation-timing-function:ease-in;
+       -webkit-animation-iteration-count:infinite;
+       -webkit-animation-fill-mode:forwards;
+       -webkit-animation-direction:alternate;
+    */
+  }
+  
+  .blok1{
+    opacity:0.4;
+    padding:10px;
+    z-index:2;
+    position:relative;
+    background:#279B61;
+     -webkit-animation: zwevend 30s ease-in 1s infinite forwards;
+  }
+  /* -webkit-animation: name duration timing iteration fill direction */
+  
+  .blok2{
+    opacity:0.4;
+     margin-top:-10px;
+    z-index:1;
+    position:relative;
+    background:#993333;
+     -webkit-animation: zwevend 50s linear 1s infinite forwards;
+  }
+  /* -webkit-animation: name duration timing iteration fill direction */
+  
+  .blok3{
+    opacity:0.4;
+    height:150px;
+    width:150px;
+     margin-top:-60px;
+    z-index:3;
+    position:relative;
+    background:#3e3e3e;
+     -webkit-animation: zwevend 15s linear 1s infinite forwards;
+  }
+  /* -webkit-animation: name duration timing iteration fill direction */
+  
+  
+  @-webkit-keyframes zwevend{
+    from{-webkit-transform:translateX(0px);}
+    to{-webkit-transform:translateX(2000px);}
+  }
