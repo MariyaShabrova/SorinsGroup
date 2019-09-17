@@ -1,11 +1,13 @@
 var express = require('express');
 var exphbs  = require('express-handlebars');
 var path = require('path');
-var sassMiddleware = require('node-sass-middleware');
 var cookieParser = require('cookie-parser')
 var bodyParser = require("body-parser");
 var nodemailer = require('nodemailer');
 var config = require("./config");
+if(config.mode=="local") {
+    var sassMiddleware = require('node-sass-middleware');
+}
  
 var app = express();
  
@@ -16,8 +18,8 @@ app.use(bodyParser());
 // cookie//
 
 app.use(cookieParser());
-if (config.mode=="local") {
 
+if (typeof sassMiddleware !== 'undefined' && config.mode=="local") {
 app.use(sassMiddleware({
     src: path.join(__dirname, 'scss'),
     dest: path.join(__dirname, 'public/css/'),
@@ -138,7 +140,7 @@ app.post('/mail', function (req, res) {
 
 
 
-const port=(config.mode=="local") ? 3000 :80;
+const port=3000; //(config.mode=="local") ? 3000 :80;
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.listen(port);
