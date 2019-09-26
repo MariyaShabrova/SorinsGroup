@@ -4,7 +4,7 @@ var path = require('path');
 var cookieParser = require('cookie-parser')
 var bodyParser = require("body-parser");
 var nodemailer = require('nodemailer');
-var config = require("config");
+var config = require("./config");
 if(config.mode=="local") {
     var sassMiddleware = require('node-sass-middleware');
 }
