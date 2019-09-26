@@ -1438,7 +1438,7 @@ body {
 
 
 .maycontainer {
-  background: url(../img/fon11.jpg);
+  background: url(/img/fon6.jpg);
   background-repeat: no-repeat;
   height: 630px;
   width: 100%;
@@ -1448,6 +1448,8 @@ body {
   display: flex;
   position: relative;
   margin: 0 auto;
+  overflow: hidden;
+  background-size: cover;
   /* max-width: 58.75rem; */
   /* width: 95%; */
   -webkit-box-orient: vertical;

@@ -531,7 +531,7 @@ h3.city-name {
   display: flex;
   width: 100%;
   margin: auto;
-  background: linear-gradient(#f2f3eb 43%, #adb5bd8f, #f2f3eb);
+  background: linear-gradient(#FFFF 43%, #f8f9fa, #e9ecef);
 }
 .company-img_page {
   margin-top: -134px;
@@ -711,22 +711,18 @@ p:last-child {
 .shapes-title {
   max-width: 985px;
   text-align: center;
-  color: #2b3238;
-  color: #2b3238;
   font-family: "Montserrat", Sans-serif;
   font-style: normal;
   text-decoration: none;
   letter-spacing: 1.2px;
   color: linear-gradient(to top, #fefcea, #f1da36);
-  /* font-family: 'Rubik One', sans-serif; */
   font-size: 35px;
-  background: linear-gradient(45deg, #495057 43%, #495057 66%, #2b3238);
+  background: linear-gradient(45deg, #fefcea 43%, #fefcea 66%, #fefcea);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  color: #2b3238;
   display: block;
   margin: 20px auto;
-  margin-left: 64px;
+ 
 }
 
 .shapes-word {
@@ -751,10 +747,7 @@ p:last-child {
 }
 
 .shapes-text {
-  font-size: 15px;
-  color: white;
-  padding: 0px 50px -27px -16px;
-  color: #2b3238;
+  color: #fefcea;
   font-family: "Montserrat", Sans-serif;
   font-weight: 200;
   font-style: normal;
@@ -763,7 +756,6 @@ p:last-child {
   width: 70%;
   margin: auto;
   text-align: justify;
-  margin-left: 80px;
 }
 
 .buttons {
@@ -851,13 +843,13 @@ html, body {
 }
 
 .freelance {
-  min-height: 85vh;
+  min-height: 60vh;
   width: 100%;
   background: linear-gradient(rgba(255,255,255,0.97), #e4e6e0 23.53%, #2c2d2f);
   padding: 3rem;
   font-family: Varela Round;
   overflow: hidden;
-  background: url(/img/9.png) no-repeat;
+  background: url(/img/fon1.png) no-repeat;
   background-size: cover;
   header {
     text-align: center;
@@ -880,9 +872,7 @@ html, body {
 
 .freelance-grid {
   display: flex;
-  align-items: center;
   margin-top: 1.2rem;
-  flex-wrap: wrap;
   .grid-item {
     width: 40%;
     color: #fff;
@@ -898,7 +888,7 @@ html, body {
       }
     }
     .item-content p {
-      color: rgba(0, 0, 0, 1);
+      color: #fff
       font-weight: 300;
       font-family: Open Sans;
     }
@@ -1606,7 +1596,7 @@ $media768: 768px;
   vertical-align: top;
   cursor: pointer;
   padding: 0px;
-  margin-top: -20px;
+  margin-top: 15px;
   margin-right: 60%;
   
 }
