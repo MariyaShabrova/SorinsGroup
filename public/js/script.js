@@ -27,8 +27,7 @@ setInterval (function() {
 }, 5000);*/
 
   // Closes responsive menu when a scroll trigger link is clicked
- 
-
+  
 var myFlipster;
 
 $(document).ready(function() {

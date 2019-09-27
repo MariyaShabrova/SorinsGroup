@@ -24,6 +24,11 @@
 
 
 /*# sourceMappingURL=sequence-theme.modern-slide-in.css.map */
+@import "media.scss";
+
+body {
+  background: #fff;
+}
 
 .wrap-title {
   font-size: 28px;
@@ -531,7 +536,7 @@ h3.city-name {
   display: flex;
   width: 100%;
   margin: auto;
-  background: linear-gradient(#FFFF 43%, #f8f9fa, #e9ecef);
+  
 }
 .company-img_page {
   margin-top: -134px;
@@ -551,6 +556,7 @@ h3.city-name {
   font-weight: 400; 
 }
 .company-text {
+  font-family: "Montserrat", Sans-serif;
   font-size: 16px;
   color: white;
   padding: 0px 50px -27px -16px;
@@ -882,7 +888,7 @@ html, body {
       width: 100%;
       //font-size: 1.2rem;
       margin-bottom: .75rem;
-      color: #0469d1;
+      color: #358fdb;;
       &:nth-child(1) {
         color: #48a8f5;
       }
@@ -894,8 +900,8 @@ html, body {
 }
 
 .shoes1 {
-  width: 125px;
-  margin-top: 28px; 
+  width: 130px;
+  margin-top: 19px; 
 }
 @media (max-width: 900px) {
   .freelance-grid .grid-item {
@@ -2739,7 +2745,9 @@ Javascript disabled
 
 /* Basic updates */
 
-  
+  .logo {
+    width: 87%;
+  }
   
 @media screen and (max-width: 480px) {
   .logo {
@@ -3005,5 +3013,3 @@ Javascript disabled
   color: #040101;
   background-color: rgba(0,0,0,0.13);  
 }
-
-@import "media.scss";
