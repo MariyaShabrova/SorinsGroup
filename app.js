@@ -109,6 +109,25 @@ app.get('/company', function (req, res) {
 
 });
 
+app.get('/jobs', function (req, res) {
+    console.log(req.cookies)
+    res.render('jobs', {
+        title:"Вакансии",
+        rus: req.cookies.lang == 'rus',
+        eng: req.cookies.lang == 'eng'
+    });
+
+});
+
+app.get('/portfolio', function (req, res) {
+    console.log(req.cookies)
+    res.render('portfolio', {
+        title:"Портфолио",
+        rus: req.cookies.lang == 'rus',
+        eng: req.cookies.lang == 'eng'
+    });
+
+});
 
 app.post('/mail', function (req, res) {
     console.log(req.body)
