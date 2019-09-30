@@ -104,7 +104,7 @@
   }
   
   .comp-3d {
-    animation: r 2s ease-in-out infinite;
+    animation: r 8s ease-in-out infinite;
   }
   .comp-3d--i {
     animation-name: ri;
@@ -352,7 +352,7 @@
 
 .company_title {
     font-size: 30px;
-    /* margin: auto auto 73px; */
+    /*margin: auto auto 73px;*/ 
     max-width: 985px;
     text-align: center;
     color: white;
