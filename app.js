@@ -129,6 +129,16 @@ app.get('/portfolio', function (req, res) {
 
 });
 
+app.get('/contact', function (req, res) {
+    console.log(req.cookies)
+    res.render('contact', {
+        title:"Контакты",
+        rus: req.cookies.lang == 'rus',
+        eng: req.cookies.lang == 'eng'
+    });
+
+});
+
 app.post('/mail', function (req, res) {
     console.log(req.body)
     var subject =req.body.subject;

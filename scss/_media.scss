@@ -69,6 +69,12 @@ z-index: 999;
     width: 60%;
     margin-left: -30px;
   }
+  #nav-header.scrolled {
+    display: none;
+  }
+  #nav-header.logo {
+    transition: none; 
+  }
 }
 
 @media (max-width: 480px) {
@@ -116,9 +122,20 @@ z-index: 999;
 @media screen and (max-width: 480px) {
   .maycontainer {
     height: 390px;
-    background: url(../img/fon11.jpg);
+    background: url(../img/fon6.jpg);
     background-size: 225%;
     -webkit-clip-path: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hero-title {
+    font-size: 65px;
+  }
+  .hero {
+    height: 580px;
+  }
+  .company-info {
+    height: 360px;
   }
 }
 
@@ -141,6 +158,22 @@ z-index: 999;
     font-size: 11px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .text_container-title {
+    font-size: 10px;
+  }
+  .text_container-title-item {
+    letter-spacing: 0.5px;
+    margin: auto auto 12px;
+    line-height: 10px;
+  }
+  .hero_list-item {
+    width: 80%;
+  }
+} 
+
+
 @media screen and (max-width: 480px) {
   .text_container-title-item {
     font-size: 7px;
@@ -251,17 +284,17 @@ z-index: 999;
       font-size: 30px;
   }
   .title_item {
-      font-size: 12px;
+      font-size: 10px;
       max-width: 985px; 
       text-align: center;
       color: white;
       color: #3b4044;
       font-family: "Montserrat", Sans-serif;
-      text-transform: uppercase;
+      /*text-transform: uppercase;*/
       font-style: normal;
       text-decoration: none;
-      line-height: 13px;
-      letter-spacing: 1.2px;
+      line-height: 12px;
+      /*letter-spacing: 1.2px;*/
       text-align: center;
       width: 100%;
   }
@@ -271,6 +304,13 @@ z-index: 999;
   }
   .mi-slider ul li h4.item_eng {
       display: none;
+  }
+  .mi-slider_button {
+    height: 35px !important;
+    font-size: 11px !important;
+    line-height: 11px !important;
+    padding: 7px 52px 12px;
+    margin-top: -30px;
   }
 }
 /*медиа запросы вторая секция*/
@@ -325,6 +365,7 @@ z-index: 999;
 @media screen and (max-width: 480px) {
   .freelance {
       padding: 1rem;
+      background: #222;
   }
   .shapes-title {
       margin-left: 0;
@@ -333,6 +374,9 @@ z-index: 999;
   .shapes-text {
       margin-left: 0;
       width: 100%;
+  }
+  .freelance-grid {
+    display: block;
   }
 }
 
@@ -474,3 +518,67 @@ filter: drop-shadow(5px 7px 4px black);
     font-size: 22px;
   }
   }
+
+  /*Медиа запросы О компании"*/
+
+  @media screen and (max-width: 480px) {
+
+  .inner-header {
+    height: 23vh;
+  }
+  .title_section {
+    padding: 0;
+  }
+  .breadcrumb li {
+    font-size: 15px;
+    line-height: 28px;
+    padding-left: 3px;
+  }
+  .fon-header_team {
+    padding-left: 15px;
+    width: 90%;
+    margin-top: 5px;
+  }
+  .assembly {
+    display: none;
+  }
+  .company-variant-page-text {
+    font-size: 17px;
+  }
+  .company-variant-page {
+    margin-top: 25px;
+  }
+  
+  .company-variant-paragraph-text {
+    font-size: 15px;
+  }
+  }
+
+
+/*Медиа запросы Услуги"*/
+
+@media screen and (max-width: 480px) {
+
+  .macbook {
+    display: none;
+  }
+}
+
+/*Медиа запросы Вакансии"*/
+
+@media screen and (max-width: 480px) {
+
+  #messages {
+    margin: 20px auto;
+  }
+
+  #messages li {
+    flex-direction: column;
+  }
+  #messages .infos {
+    border: none;
+  }
+  .jobs-content {
+    width: 90%;
+  }
+}
