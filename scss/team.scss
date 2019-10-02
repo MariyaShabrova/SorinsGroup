@@ -2,11 +2,12 @@
   padding-left: 40px;
 }
 .macbook {
-  width: 250px;
-  height: 196px;
+  width: 150px;
+  height: 96px;
   position: absolute;
-  left: 55%;
-  top: 15%;
+  left: 50%;
+  top: 50%;
+  margin: -75px 0 0 -48px;
   perspective: 500px;
 }
 .shadow {
@@ -21,30 +22,27 @@
 }
 .inner {
   z-index: 20;
-  /*position: absolute;*/
-  width: 250px;
-  height: 196px;
+  position: absolute;
+  width: 150px;
+  height: 96px;
   left: 0;
   top: 0;
   transform-style: preserve-3d;
   transform:rotateX(-20deg) rotateY(0deg) rotateZ(0deg);
   animation: rotate infinite 7s ease;
 }
-
-
-
 .screen {
-  width: 250px;
-  height: 196px;
+  width: 150px;
+  height: 96px;
   position: absolute;
   left: 0;
   bottom: 0;
   border-radius: 7px;
-  background: #2b3238;
+  background: #ddd;
   transform-style: preserve-3d;
   transform-origin: 50% 93px;
   transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
-  /*animation: lid-screen infinite 7s ease;*/
+  animation: lid-screen infinite 7s ease;
   background-image: linear-gradient(45deg, rgba(0,0,0,0.34) 0%,rgba(0,0,0,0) 100%);
   background-position: left bottom;
   background-size: 300px 300px;
@@ -60,8 +58,8 @@
   transform: rotateY(180deg) translateZ(0.1px);
 }
 .screen .face-one {
-  width: 250px;
-  height: 196px;
+  width: 150px;
+  height: 96px;
   position: absolute;
   left: 0;
   bottom: 0;
@@ -71,8 +69,8 @@
   background-image: linear-gradient(45deg,rgba(0,0,0,0.24) 0%,rgba(0,0,0,0) 100%);
 }
 .screen .face-one .camera {
-  width: 5px;
-  height: 5px;
+  width: 3px;
+  height: 3px;
   border-radius: 100%;
   background: #000;
   position: absolute;
@@ -81,8 +79,8 @@
   margin-left: -1.5px;
 }
 .screen .face-one .display {
-  width: 230px;
-  height: 174px;
+  width: 130px;
+  height: 74px;
   margin: 10px;
   background: url("http://www.pcmag.com/media/images/507124-mac-os-sierra.jpg?thumb=y&width=150&height=96") no-repeat center center #000;
   background-size: 100% 100%;
@@ -94,8 +92,8 @@
   position: absolute;
   left: 0;
   top: 0;
-  width: 230px;
-  height: 174px;
+  width: 130px;
+  height: 74px;
   background: linear-gradient(-135deg, rgba(255,255,255,0) 0%,rgba(255,255,255,0.1) 47%,rgba(255,255,255,0) 48%);
   animation: screen-shade infinite 7s ease;
   background-size: 300px 200px;
@@ -110,8 +108,8 @@
 }
 
 .body {
-  width: 112px;
-  height: 66px;
+  width: 150px;
+  height: 96px;
   position: absolute;
   left: 0;
   bottom: 0;
@@ -124,8 +122,8 @@
   background-image: linear-gradient(45deg, rgba(0,0,0,0.24) 0%,rgba(0,0,0,0) 100%);
 }
 .body .face-one {
-  width: 250px;
-  height: 231px;
+  width: 150px;
+  height: 96px;
   position: absolute;
   left: 0;
   bottom: 0;
@@ -137,11 +135,11 @@
   background-image: linear-gradient(30deg, rgba(0,0,0,0.24) 0%,rgba(0,0,0,0) 100%);
 }
 .body .touchpad {
-  width: 44px;
-  height: 44px;
+  width: 40px;
+  height: 31px;
   position: absolute;
   left: 50%;
-  top: 28%;
+  top: 50%;
   border-radius: 4px;
   margin: -44px 0 0 -18px;
   background: #cdcdcd;
@@ -149,11 +147,11 @@
   box-shadow: inset 0 0 3px #888;
 }
 .body .keyboard {
-width: 230px;
-height: 145px;
+width: 130px;
+height: 45px;
 position: absolute;
 left: 7px;
-top: 80px;
+top: 41px;
 border-radius: 4px;
 transform-style: preserve-3d;
 background: #cdcdcd;
@@ -162,8 +160,8 @@ box-shadow: inset 0 0 3px #777;
 padding: 0 0 0 2px;
 }
 .keyboard .key {
-  width: 15px;
-  height: 15px;
+  width: 6px;
+  height: 6px;
   background: #444;
   float: left;
   margin: 1px;
@@ -176,11 +174,11 @@ padding: 0 0 0 2px;
   width: 45px;
 }
 .key.f {
-  height: 15px;
+  height: 3px;
 }
 .body .pad {
-  width: 15px;
-  height: 15px;
+  width: 5px;
+  height: 5px;
   background: #333;
   border-radius: 100%;
   position: absolute;
