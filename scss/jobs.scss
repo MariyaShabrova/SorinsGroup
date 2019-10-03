@@ -18,12 +18,14 @@
     display: flex;
     flex-direction: column;
     li {
-      margin-bottom: 30px;
-      padding-bottom: 30px;
+      margin-bottom: 10px;
+      padding-bottom: 10px;
       border-bottom: 1px dashed #474544;
       width: 100%;
       display: flex;
       flex-direction: row;
+      font-weight: 600;
+      font-size: 15px;
       &:nth-child(2n) {
         .infos {
           margin-left: 20px;
@@ -126,9 +128,6 @@
     /*     and SAFARI (only new versions)                                   /*
     /*                                                                      /*
     /* ==================================================================== */
-    background-image: -webkit-linear-gradient(0deg, transparent 11px, #d4d0cf 0, #a29e9d 14px, transparent 12px), -webkit-linear-gradient(#dad9d4 0.1em, transparent 0.1em);
-    background-image: -webkit-linear-gradient(0deg, transparent 11px, #d4d0cf 0, #a29e9d 14px, transparent 12px), -webkit-linear-gradient(#dad9d4 0.1em, transparent 0.1em);
-    background-image: -moz-linear-gradient(0deg, transparent 11px, #dbada9 0, #dbada9 13px, transparent 12px), -moz-linear-gradient(#e1dab0 0.1em, transparent 0.1em);
     background-size: 100% 10px;
     color: #333;
   }
@@ -153,13 +152,25 @@
     -o-transform: rotate(220deg);
     transform: rotate(220deg);
   }
-  
+  .jobs-content-text_ol::before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    top: 0.5em;
+    left: -10px;
+    background-color: #3293da;
+    margin: 8px 10px 0px 0px;
+   }
+
   .jobs-content {
     h3 {
-      font: 23px "Satisfy";
+      font: 30px "Satisfy";
       margin: 0;
       padding: 0;
       font-weight: normal;
+      color: #56a5e2;
     }
     p {
       margin: 10px 0 0 0;
