@@ -64,12 +64,7 @@ app.get('/', function (req, res) {
     });
 });
  
-app.get('/team', function (req, res) {
-    res.render('team', {
-        title:"Команда"
-    });
 
-});
 app.get('/lang/:language', function (req, res){
  res.cookie('lang', req.params.language);
  var backURL=req.header('Referer') || '/';
@@ -103,6 +98,16 @@ app.get('/company', function (req, res) {
     console.log(req.cookies)
     res.render('company', {
         title:"О компании",
+        rus: req.cookies.lang == 'rus',
+        eng: req.cookies.lang == 'eng'
+    });
+
+});
+
+app.get('/team', function (req, res) {
+    console.log(req.cookies)
+    res.render('team', {
+        title:"Услуги",
         rus: req.cookies.lang == 'rus',
         eng: req.cookies.lang == 'eng'
     });
