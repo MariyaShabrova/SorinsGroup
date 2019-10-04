@@ -199,7 +199,9 @@
       border-right: 19px solid rgba(0, 0, 0, 0.1);
     }
   }
-  
+  .jobs-item {
+    text-align: left;
+  }
   // Specific
   $c-main: hsla(0, 100%, 100%, .75);
   $c-secondary: hsla(200, 5%, 11%, 1);

@@ -53,7 +53,7 @@ viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
 				<h3>
 					<strong>Frontend Developer JavaScript (React)</strong>
 				</h3>
-				<p>
+				<p class="jobs-item">
                         <strong>Зона ответственности:</strong><br>
 
                         1. Разработка интерфейса приложения в рамках проекта, как на основании наших внутренних библиотек, так и open source решений;<br>
@@ -137,7 +137,7 @@ viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
 				<h3>
 					<strong>JAVA DEVELOPER</strong>
 				</h3>
-				<p>
+				<p class="jobs-item">
                         <strong>В обязанности будет входить:</strong><br>
 
                         1. Разработка Back-end части программного обеспечения на базе технологий Java Spring Framework и сопутствующих библиотек;<br>
@@ -210,4 +210,129 @@ viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
 			</div>
 		</li>-->
 	</ul>
+</section>
+
+<section class="section-form">
+  <div id="container-form-content">
+    <div class="content-form">
+{{#if rus}}      
+    <h1 class="form-title">&bull; Расскажите нам о Ваших бизнес-задачах и мы предложим наиболее оптимальное решение &bull;</h1>
+{{else}}    
+    <h1>&bull; Tell us about Your business tasks and we will offer the most optimal solution &bull;</h1>
+{{/if}}    
+    <div class="underline">
+    </div>
+    </div>
+{{#if rus}}    
+    <form action="#" method="post" id="contact_form">
+      <div class="name">
+        <label for="name"></label>
+        <input type="text" placeholder="Ваше Имя" name="name" id="name_input" required>
+      </div>
+      <div class="email">
+        <label for="email"></label>
+        <input type="email" placeholder="Ваш E-mail" name="email" id="email_input" required>
+      </div>
+      <div class="telephone">
+        <label for="name"></label>
+        <input type="text" placeholder="Ваш телефон" name="telephone" id="telephone_input" required>
+      </div>
+      <div class="subject">
+        <label for="subject"></label>
+        <select placeholder="Тема" name="subject" id="subject_input" required>
+          <option disabled hidden selected>Тема</option>
+          <option>Web-разработка</option><br>
+          <option>Мобильная разработка</option><br>
+          <option>Аутсорсинг</option><br>
+          <option>Консалтинг</option><br>
+          <option>Инфраструктурные проекты</option><br>
+          <option>Партнерство</option><br>
+          <option>Другое</option><br>
+        </select>
+      </div>
+      <div class="message">
+        <label for="message"></label>
+        <textarea name="message" placeholder="Вас интересует...." id="message_input" cols="30" rows="5" required></textarea>
+      </div>
+
+
+      <div class="checkbox">
+        <div class="checkbox-blok">
+        <label class="checkbox-control"></label>
+        <input type="checkbox" name="Checkbox" value="yes" class="t-checkbox" data-tilda-req="1" required>
+        <div class="checkboz-indicator" style="border-color:#ffffff;"></div>
+        <div class="checkbox-labeltext" style="display: inline">Ознакомлен с 
+          <a href="politics"> <u>Политикой в области обработки персональных данных</u>
+          </a>
+          и даю
+          <a href="personal"> <u>согласие на их обработку</u>
+          </a>
+        </div>
+        </label>
+        </div>
+      </div>
+
+
+      <div class="submit">
+        <input type="submit" value="Отправить" id="form_button" />
+      </div>
+    </form><!-- // End form -->
+{{else}}
+    <form action="#" method="post" id="contact_form">
+      <div class="name">
+        <label for="name"></label>
+        <input type="text" placeholder="Your name" name="name" id="name_input" required>
+      </div>
+      <div class="email">
+        <label for="email"></label>
+        <input type="email" placeholder="Your E-mail" name="email" id="email_input" required>
+      </div>
+      <div class="telephone">
+        <label for="name"></label>
+        <input type="text" placeholder="Your phone" name="telephone" id="telephone_input" required>
+      </div>
+      <div class="subject">
+        <label for="subject"></label>
+        <select placeholder="Tema" name="subject" id="subject_input" required>
+          <option disabled hidden selected>Tema</option>
+          <option>Web development</option><br>
+          <option>Mobile development</option><br>
+          <option>Outsourcing</option><br>
+          <option>Consulting</option><br>
+          <option>Infrastructure project</option><br>
+          <option>Partnership</option><br>
+          <option>Else</option><br>
+        </select>
+      </div>
+      <div class="message">
+        <label for="message"></label>
+        <textarea name="message" placeholder="Interest you...." id="message_input" cols="30" rows="5" required></textarea>
+      </div>
+
+
+      <div class="checkbox">
+        <div class="checkbox-blok">
+        <label class="checkbox-control"></label>
+        <input type="checkbox" name="Checkbox" value="yes" class="t-checkbox" data-tilda-req="1" required>
+        <div class="checkboz-indicator" style="border-color:#ffffff;"></div>
+        <div class="checkbox-labeltext" style="display: inline">Acquainted with
+          <a href="politics"> <u>Personal data processing policy</u>
+          </a>
+          and I give
+          <a href="personal"> <u>consent to their processing</u>
+          </a>
+        </div>
+        </label>
+        </div>
+      </div>
+
+
+      <div class="submit">
+        <input type="submit" value="Send" id="form_button" />
+      </div>
+    </form><!-- // End form -->
+{{/if}}    
+
+  </div><!-- // End #container -->
+
 </section>

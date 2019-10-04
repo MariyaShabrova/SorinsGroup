@@ -12,7 +12,7 @@ body {
   color: white;
   padding: 0px 50px -27px -16px;
   color: #2b3238;
-  font-family: "Montserrat", Sans-serif;
+  font-family: 'Oswald', Sans-serif;
   font-weight: 200;
   text-transform: uppercase;
   font-style: normal;
@@ -68,7 +68,7 @@ body {
 .hero_list-item-text {
   padding: 0px 16px 0px 0px;
   color: #e9ecef;
-  font-family: "Montserrat", Sans-serif;
+  font-family: 'Oswald', Sans-serif;
   font-size: 13px;
   font-weight: 400;
   text-transform: uppercase;
@@ -113,7 +113,7 @@ body {
 
 
 /*Шрифты*/
-@font-face {
+/*@font-face {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -126,7 +126,7 @@ body {
   font-style: normal;
   font-weight: 700;
   src: local("Roboto Bold"), local("Roboto-Bold"), url(../fonts/Roboto/roboto-bold.woff) format("woff"), url(../fonts/Roboto/roboto-bold.ttf) format("truetype");
-}
+}*/
 
 
 /*Стили для демо*/
@@ -135,7 +135,7 @@ body {
 .title {
   background-color: #503d3f;
   color: #fff;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Oswald', Sans-serif;
   line-height: 60px;
   font-weight: 400;
   position: relative;
@@ -170,7 +170,7 @@ h2.title {
   }
   span {
     color: #fff;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Oswald', Sans-serif;
     line-height: 40px;
     font-weight: 700;
   }
@@ -235,7 +235,7 @@ header {
         display: block;
         padding: 0 20px;
         color: #fff;
-        font-family: "Roboto", sans-serif;
+        font-family: 'Oswald', Sans-serif;
         text-decoration: none;
         text-transform: uppercase;
         font-weight: 800;
@@ -359,7 +359,7 @@ header {
   font-weight: 400; 
 }
 .company-text {
-  font-family: "Montserrat", Sans-serif;
+  font-family: 'Oswald', Sans-serif;
   font-size: 16px;
   color: white;
   padding: 0px 50px -27px -16px;
@@ -399,7 +399,7 @@ header {
   font-size: 13px !important;
   line-height: 33px !important;
   padding: 7px 17px 7px !important;
-  font-family: "Montserrat", Sans-serif;
+  font-family: 'Oswald', Sans-serif;
   font-size: 11px;
   font-weight: 400;
   text-transform: uppercase;
@@ -446,12 +446,12 @@ i {
     display: inline-block;
     text-align: center;
     padding: -5px 0;
-    font-size: 19px;
+    font-size: 21px;
     cursor: pointer;
     font-style: normal;
     line-height: -2px;
     letter-spacing: 0.2px;
-    font-family: "Montserrat", Sans-serif;
+    font-family: 'Oswald', Sans-serif;
     font-weight: 600;
     text-transform: uppercase;
   
@@ -476,7 +476,7 @@ i {
     font-size: 16px;
     margin: 0 0 15px;
     color: black;
-    font-family: "Montserrat", Sans-serif;
+    font-family: 'Oswald', Sans-serif;
     font-size: 15px;
     font-weight: 400;
     text-transform: uppercase;
@@ -518,19 +518,15 @@ p:last-child {
 }
 
 .shapes-title {
-  max-width: 985px;
   text-align: center;
-  font-family: "Montserrat", Sans-serif;
-  font-style: normal;
-  text-decoration: none;
-  letter-spacing: 1.2px;
-  color: linear-gradient(to top, #fefcea, #f1da36);
-  font-size: 35px;
-  background: linear-gradient(45deg, #fefcea 43%, #fefcea 66%, #fefcea);
+  font-family: 'Oswald', Sans-serif;
+  font-weight: 100;
+  font-size: 3.75rem;
+  letter-spacing: 5px;
+  background: linear-gradient(rgba(255,0,0,0), #e9ecef, rgba(255,0,0,0));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  display: block;
-  margin: 20px auto;
+  margin-bottom: 0;
  
 }
 
@@ -541,13 +537,12 @@ p:last-child {
   text-align: center;
   color: white;
   color: white;
-  font-family: "Montserrat", Sans-serif;
+  font-family: 'Oswald', Sans-serif;
   font-style: normal;
   text-decoration: none;
   line-height: 54px;
   letter-spacing: 6.2px;
   color: linear-gradient(to top, #fefcea, #f1da36);
-  font-family: 'Rubik One', sans-serif;
   background: linear-gradient(45deg, #2b3238 33%, #4bbcdc 66%, #2b3238);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -557,7 +552,7 @@ p:last-child {
 
 .shapes-text {
   color: #fefcea;
-  font-family: "Montserrat", Sans-serif;
+  font-family: 'Oswald', Sans-serif;
   font-weight: 200;
   font-style: normal;
   text-decoration: none;
@@ -643,7 +638,7 @@ p:last-child {
   width: 100%;
   background: linear-gradient(rgba(255,255,255,0.97), #e4e6e0 23.53%, #2c2d2f);
   padding: 3rem;
-  font-family: Varela Round;
+  font-family: 'Oswald', Sans-serif;
   overflow: hidden;
   background: url(/img/fon1.png) no-repeat;
   background-size: cover;
@@ -658,7 +653,7 @@ p:last-child {
     }
     .header-subtitle {
       color: rgba(255, 255, 255, 0.6);
-      font-family: Open Sans;
+      font-family: 'Oswald', Sans-serif;
       font-weight: 300;
       margin-top: .65rem;
       font-size: 1.35rem;
@@ -701,11 +696,11 @@ p:last-child {
   padding: 3rem 1rem;
   border-top: 2px solid rgba(255, 255, 255, 0.15);
   h3 {
-    font-family: Varela Round;
+    font-family: 'Oswald', Sans-serif;
   }
   p {
     color: rgba(255, 255, 255, 0.6);
-    font-family: Open Sans;
+    font-family: 'Oswald', Sans-serif;
     font-weight: 300;
   }
 }
@@ -894,22 +889,17 @@ p:last-child {
   
 }
 .title-mi-slider {
-  max-width: 985px;
+
+
   text-align: center;
-  color: #2b3238;
-  color: #2b3238;
-  font-family: "Montserrat", Sans-serif;
-  font-style: normal;
-  text-decoration: none;
-  letter-spacing: 1.2px;
-  color: linear-gradient(to top, #fefcea, #f1da36);
-  font-size: 35px;
-  background: linear-gradient(45deg, #495057 43%, #495057 66%, #2b3238);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  color: #2b3238;
-  display: block;
-  margin: 20px auto;
+    font-family: 'Oswald', Sans-serif;
+    font-weight: 100;
+    font-size: 3.75rem;
+    letter-spacing: 5px;
+    background: linear-gradient(rgba(255,0,0,0), #444, rgba(255,0,0,0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0;
 }
 .title_item {
   font-size: 17px;
@@ -917,7 +907,7 @@ p:last-child {
   text-align: center;
   color: white;
   color: #3b4044;
-  font-family: "Montserrat", Sans-serif;
+  font-family: 'Oswald', Sans-serif;
   text-transform: uppercase;
   font-style: normal;
   text-decoration: none;
@@ -1008,7 +998,7 @@ p:last-child {
 
 .mi-slider ul li h4 {
 	display: inline-block;
-	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+	font-family: 'Oswald', Sans-serif;
 	font-style: italic;
 	font-weight: 400;
 	font-size: 18px;
@@ -1021,7 +1011,6 @@ p:last-child {
   color: white;
   padding: 0px 50px -27px -16px;
   color: #000000;
-  font-family: "Montserrat", Sans-serif;
   font-weight: 200;
   font-style: normal;
   text-decoration: none;
@@ -1032,7 +1021,7 @@ p:last-child {
 }
 .mi-slider ul li h4.item_eng {
   display: inline-block;
-	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+	font-family: 'Oswald', Sans-serif;
   font-size: 18px;
   color: #000000;
   font-style: normal;
@@ -1109,7 +1098,7 @@ p:last-child {
   font-size: 12px !important;
   line-height: 12px !important;
   padding: 7px 43px 12px !important;
-  font-family: "Montserrat", Sans-serif;
+  font-family: 'Oswald', Sans-serif;
   font-size: 11px;
   font-weight: 800;
   text-transform: uppercase;
@@ -1134,7 +1123,7 @@ p:last-child {
   font-size: 12px !important;
   line-height: 33px !important;
   padding: 7px 62px 12px !important;
-  font-family: "Montserrat", Sans-serif;
+  font-family: 'Oswald', Sans-serif;
   font-size: 11px;
   font-weight: 800;
   text-transform: uppercase;
@@ -1450,7 +1439,7 @@ textarea {
   color: #474544;
   cursor: pointer;
   display: inline-block;
-  font-family: 'Helvetica', Arial, sans-serif;
+  font-family: 'Oswald', Sans-serif;
   font-size: 0.875em;
   font-weight: bold;
   outline: none;
@@ -1500,22 +1489,15 @@ Main content
   }
 }
 .cd-main_title {
-  max-width: 985px;
   text-align: center;
-  color: #2b3238;
-  color: #2b3238;
-  font-family: "Montserrat", Sans-serif;
-  font-style: normal;
-  text-decoration: none;
-  letter-spacing: 1.2px;
-  color: linear-gradient(to top, #fefcea, #f1da36);
-  font-size: 35px;
-  background: linear-gradient(45deg, #495057 43%, #495057 66%, #2b3238);
+  font-family: 'Oswald', Sans-serif;
+  font-weight: 100;
+  font-size: 3.75rem;
+  letter-spacing: 5px;
+  background: linear-gradient(rgba(255,0,0,0), #444, rgba(255,0,0,0));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  color: #2b3238;
-  display: block;
-  margin: 45px auto;
+  margin-bottom: 0;
 }
 @media only screen and (min-width: 600px) {
   .cd-main.fold-is-open > * {
@@ -2028,7 +2010,7 @@ folding panel
     line-height: 1.6;
     display: inline-block;
     margin: 1em 0;
-    font-family: "Vollkorn", serif;
+    font-family: 'Oswald', Sans-serif;
     font-size: 1.8rem;
     color: #7a78ae;
     -webkit-transition: -webkit-transform 0.2s 0.1s, opacity 0.2s 0.1s;
@@ -2067,8 +2049,8 @@ folding panel
     text-align: center;
     color: #2b3238;
     color: #2b3238;
-    font-family: "Montserrat", Sans-serif;
-    font-style: normal;
+    font-family: 'Oswald', Sans-serif;
+    font-style: italic;
     text-decoration: none;
     letter-spacing: 1.2px;
     color: linear-gradient(to top, #fefcea, #f1da36);
@@ -2093,7 +2075,7 @@ folding panel
     text-align: center;
     color: #2b3238;
     color: #2b3238;
-    font-family: "Montserrat", Sans-serif;
+    font-family: 'Oswald', Sans-serif;
     font-style: normal;
     text-decoration: none;
     letter-spacing: 1.2px;
@@ -2197,19 +2179,22 @@ Javascript disabled
   margin-top: 5%;
 }
 .form-title {
-  color: #f2f3eb;
-    font-size: 25px;
-    font-weight: 700;
-    letter-spacing: 7px;
-    text-align: center;
-    text-transform: uppercase
+  text-align: center;
+  font-family: 'Oswald', Sans-serif;
+  font-weight: 100;
+  font-size: 2.3rem;
+  letter-spacing: 5px;
+  background: linear-gradient(#adb5bd, #e9ecef, #adb5bd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 16px;
 }
 .img_wrapper-form {
   margin-left: 31%;
   width: 40%;
 }
 #contact_form {
-  background-color: #f2f3eb;
+  background: linear-gradient(45deg, #dee2e6 0%, #f8f9fa 50%, #adb5bd);
   width: 82%;
   margin: 0 auto;
   padding: 2em;
@@ -2303,7 +2288,7 @@ Javascript disabled
 }
 
 .elementor-widget-page-site{
-    font-family: "Montserrat", Sans-serif;
+    font-family: 'Oswald', Sans-serif;
     font-size: 10px;
     font-weight: 300;
     line-height: 1.715em;
@@ -2312,7 +2297,7 @@ Javascript disabled
     color: #adb5bdcf;
 }  
 .elementor-widget-page-contact {
-  font-family: "Montserrat", Sans-serif;
+  font-family: 'Oswald', Sans-serif;
   font-size: 12px;
   font-weight: 300;
   line-height: 1.715em;
@@ -2321,7 +2306,7 @@ Javascript disabled
   color: #adb5bdcf;  
 }
 .elementor-widget-page-contact_link {
-  font-family: "Montserrat", Sans-serif;
+  font-family: 'Oswald', Sans-serif;
   font-size: 12px;
   font-weight: 300;
   line-height: 1.715em;
@@ -2339,7 +2324,7 @@ Javascript disabled
   background: url(/img/bullet1.png) 2px 10px no-repeat;
 }
 .page-item {
-  font-family: "Montserrat", Sans-serif;
+  font-family: 'Oswald', Sans-serif;
     font-size: 10px;
     font-weight: 300;
     line-height: 1.715em;

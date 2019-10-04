@@ -291,7 +291,7 @@ z-index: 999;
 	}
 }
 
-@media screen and (max-width: 490px){ 
+@media screen and (max-width: 480px){ 
 	.mi-slider {
 		text-align: center;
 		height: auto;
@@ -333,7 +333,7 @@ z-index: 999;
       font-size: 30px;
   }
   .title_item {
-      font-size: 10px;
+      font-size: 11px;
       max-width: 985px; 
       text-align: center;
       color: white;
@@ -342,7 +342,7 @@ z-index: 999;
       /*text-transform: uppercase;*/
       font-style: normal;
       text-decoration: none;
-      line-height: 12px;
+      line-height: 14px;
       /*letter-spacing: 1.2px;*/
       text-align: center;
       width: 100%;
@@ -383,7 +383,7 @@ z-index: 999;
 	}
 }
 
-@media screen and (max-width: 490px){ 
+@media screen and (max-width: 480px){ 
 	.mi-slider {
 		text-align: center;
 		height: auto;
@@ -391,7 +391,7 @@ z-index: 999;
 
 	.mi-slider ul {
 		position: relative;
-		display: inline;
+		display: flex;
 		bottom: auto;
 		pointer-events: auto;
 	}
@@ -530,7 +530,7 @@ z-index: 999;
       width: 36%;
   }
   #contact_form {
-      background-color: #f2f3eb;
+    background: linear-gradient(45deg, #dee2e6 0%, #f8f9fa 50%, #adb5bd);
       width: 100%;
       margin: 0 auto;
       padding: 2em;
@@ -538,7 +538,10 @@ z-index: 999;
       filter: drop-shadow(5px 7px 4px black);
   }
   .form-title {
-    color: #040404;
+    background: linear-gradient(#adb5bd, #040101, #adb5bd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.7em;
   }
 }
 
@@ -695,7 +698,7 @@ z-index: 999;
   }
 
   #messages li {
-    flex-direction: column;
+    display: block;
   }
   #messages .infos {
     border: none;
@@ -744,5 +747,14 @@ z-index: 999;
   
   input[type='text'], [type='email'], select, textarea {
     font-size: 0.875em;
+  }
+}
+
+
+/*Портфолио*/
+
+@media screen and (max-width: 480px) {
+  .title {
+    font-size: 30px;
   }
 }
