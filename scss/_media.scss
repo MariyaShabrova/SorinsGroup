@@ -530,12 +530,15 @@ z-index: 999;
       width: 36%;
   }
   #contact_form {
-    background: linear-gradient(45deg, #dee2e6 0%, #f8f9fa 50%, #adb5bd);
       width: 100%;
       margin: 0 auto;
       padding: 2em;
-      box-shadow: inset 4px 4px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
-      filter: drop-shadow(5px 7px 4px black);
+  }
+  .form-contact {
+    display: block;
+  }
+  .inbox {
+    display: none;
   }
   .form-title {
     background: linear-gradient(#adb5bd, #040101, #adb5bd);

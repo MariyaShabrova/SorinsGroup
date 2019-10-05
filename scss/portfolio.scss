@@ -178,21 +178,60 @@
   .study2 {
     background-image: url(/img/site1.png);
   }
+  .study2:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+      -o-transform: scale(1.1);
+      -moz-transform: scale(1.1);
+
+  }  
   .study3{
     background-image: url(/img/site2.png);
   }
+  .study3:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+      -o-transform: scale(1.1);
+      -moz-transform: scale(1.1);
+
+  }  
   .study4{
     background-image: url(/img/site4.png);
   }
+  .study4:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+      -o-transform: scale(1.1);
+      -moz-transform: scale(1.1);
+
+  }  
   .study5{
     background-image: url(/img/site5.png);
   }
+  .study5:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+      -o-transform: scale(1.1);
+      -moz-transform: scale(1.1);
+
+  }  
   .study6{
     background-image: url(/img/site6.png);
     
   }
+  .study6:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+      -o-transform: scale(1.1);
+      -moz-transform: scale(1.1);
+
+  }  
 
 
+
+  //
+
+  
 
   @import "media.scss";
 
